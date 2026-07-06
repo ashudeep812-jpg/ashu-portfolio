@@ -144,7 +144,7 @@ export default function Hero() {
               className="absolute bottom-10 left-6 right-6 text-white font-mono z-20 text-center flex flex-col items-center justify-center gap-1"
             >
               <div>
-                <p className="text-[9px] tracking-widest text-[#E55B3C] font-semibold uppercase">DIGITAL STRATEGIST</p>
+                <p className="text-[9px] tracking-widest text-[#E55B3C] font-semibold uppercase">CREATIVE STRATEGIST</p>
                 <h3 className="text-xs font-bold tracking-wider leading-tight uppercase font-display">{PERSONAL_BIO.name}</h3>
               </div>
               <div>
@@ -172,7 +172,7 @@ export default function Hero() {
                 {PERSONAL_BIO.tagline}
               </p>
               <p className="font-sans text-[10px] text-text-primary/50 uppercase mt-0.5 tracking-wider">
-                Fluid LIVING SPACE FOR DESIGN EXPERTS & DIGITAL STRATEGISTS.
+                Fluid LIVING SPACE FOR DESIGN EXPERTS & DIGITAL MARKETERS.
               </p>
             </div>
             {/* Artistic Coordinate Label */}

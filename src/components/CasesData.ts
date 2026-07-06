@@ -3,54 +3,51 @@ const creativeConcept = '/src/assets/images/creative_concept_1782106541878.jpg';
 const cinematicConcept = '/src/assets/images/cinematic_concept_1782106555605.jpg';
 import { PortfolioProject } from '../types';
 
-export const JULIAN_AVATAR_PATH = '/src/assets/images/arshdeep_avatar_custom_1782230112940.jpg';
+export const JULIAN_AVATAR_PATH = '/src/assets/images/arshdeep_avatar_exact.png';
 
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   {
     id: 'campaign-01',
-    title: 'THE SILENT LUXURY INSIGHT',
-    category: 'Brand Strategy & Digital Activation',
+    title: 'REBRANDING LOCAL BUSINESSES',
+    category: 'LOCAL BUSINESS MARKETING',
     imageUrl: luxCampaign,
     aspect: '3:4',
     offsetClass: 'md:pt-0 pb-12',
-    description: 'An immersive digital narrative built for a heritage high-fashion brand, replacing traditional commercial templates with interactive visual storytelling that captured a 140% surge in qualitative, high-intent client leads.',
+    description: 'Creating fresh visual assets for neighborhood shops. By designing custom physical menus and eye-catching social media posts on Canva, I help local brands connect with their community and look highly professional.',
     year: '2026',
     metrics: [
-      '+140% Qualified Leads',
-      '8.2 min Average Session Dur.',
-      '3.8M Narrative Impressions'
+      'CANVA DESIGN',
+      'VISUAL IDENTITY'
     ],
     link: '#campaign-silent'
   },
   {
     id: 'campaign-02',
-    title: 'ARCHITECTURAL CONSCIOUSNESS',
-    category: 'Creative Direction & Data Architecture',
+    title: 'CREATIVE BRAND CONCEPTS',
+    category: 'AI & CONTENT STRATEGY',
     imageUrl: creativeConcept,
     aspect: '4:3',
     offsetClass: 'md:pt-24 md:pl-8 pb-12',
-    description: 'A conceptual framework mapping complex marketing data pipelines onto responsive, physical-looking 3D digital artifacts that turned a standard analytics suite into an inspired, interactive marketing board game.',
+    description: 'Building out next-generation marketing ideas. I use modern AI tools to research target audiences, brainstorm unique social media campaigns, and design fresh brand strategies that tell a story.',
     year: '2025',
     metrics: [
-      '96% Interactive Engagement',
-      'Redefined Brand Positioning',
-      'Featured on Editorial News'
+      'AI PROMPTING',
+      'CAMPAIGN IDEATION'
     ],
     link: '#campaign-architectural'
   },
   {
     id: 'campaign-03',
-    title: 'CINEMATIC TIMELESSNESS',
-    category: 'Media Production & Visual PR',
+    title: 'VISUAL MARKETS & MENUS',
+    category: 'FREELANCE CONTENT CREATION',
     imageUrl: cinematicConcept,
     aspect: '16:9',
     offsetClass: 'md:pt-12 pb-16 col-span-2 max-w-4xl mx-auto',
-    description: 'A multi-channel cinematic film release and interactive PR campaign representing the convergence of fine art, digital marketing, and luxury digital media. The video tells the story of an modern designer exploring empty spaces.',
+    description: 'Designing print and digital assets for neighborhood eateries and businesses. I build practical, beautiful assets like menus and promotion posters that improve presentation and attract local clients.',
     year: '2026',
     metrics: [
-      '12.5M Cross-Platform Views',
-      '+45% Brand Recall Delta',
-      'Golden Lion Shortlist, 2026'
+      'LOCAL BUSINESSES',
+      'PRINT & DIGITAL'
     ],
     link: '#campaign-cinematic'
   }
@@ -65,8 +62,8 @@ export const NAVIGATION_LINKS = [
 
 export const PERSONAL_BIO = {
   name: 'ARSHDEEP SINGH',
-  title: 'DIGITAL CONTENT ARCHITECT',
-  role: 'Expert Digital Content Architect & Visual Storyteller',
-  tagline: 'Where Digital Strategy Meets Visual Storytelling.',
-  editorialCopy: 'Crafting high-impact, data-backed digital marketing strategies and memorable brand identities. This platform serves as a fluid living space curated for experts, founders, and digital strategists looking to discover forward-thinking ideas, visual frameworks, and detailed strategy execution.'
+  title: 'CREATIVE STRATEGIST • DIGITAL MARKETER',
+  role: 'Creative Strategist & Digital Marketer',
+  tagline: 'Designing bold strategies and visuals for growing brands.',
+  editorialCopy: 'I am a highly creative digital marketing student with a passion for brand strategy. I combine my visual skills in Canva with smart AI tools to build engaging campaigns, design local marketing materials, and explore fresh growth strategies for modern brands.'
 };

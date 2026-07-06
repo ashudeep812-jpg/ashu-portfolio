@@ -4,7 +4,7 @@ import { Mail, ArrowUpRight, Send, HelpCircle, Check, Copy, Sparkles, Building, 
 import { PERSONAL_BIO } from './CasesData';
 
 export default function ContactSection() {
-  const [selectedInterest, setSelectedInterest] = useState<string>('Brand Strategy');
+  const [selectedInterest, setSelectedInterest] = useState<string>('Creative Strategy');
   const [copiedEmail, setCopiedEmail] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
   
@@ -16,11 +16,11 @@ export default function ContactSection() {
   });
 
   const queryTypes = [
-    'Brand Strategy',
-    'Media Campaign',
-    'Visual Direction',
-    'CRO Consult',
-    'Consultancy Brief'
+    'Creative Strategy',
+    'Social Media Posts',
+    'Canva Design / Menus',
+    'Local Marketing',
+    'Other Project'
   ];
 
   const handleCopyEmail = () => {
@@ -126,14 +126,14 @@ export default function ContactSection() {
 
           <h3 className="font-display font-medium text-xl md:text-2xl tracking-normal uppercase mb-6 flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-accent animate-pulse" />
-            <span>Interactive Narrative Inquiry</span>
+            <span>LET'S WORK TOGETHER</span>
           </h3>
 
           <form onSubmit={handleSubmitForm} className="flex flex-col gap-6">
             
             {/* Category / Inquiry Selection Panel */}
             <div className="flex flex-col gap-3">
-              <p className="font-mono text-[9px] tracking-widest text-[#E55B3C] uppercase">Select Campaign Objective</p>
+              <p className="font-mono text-[9px] tracking-widest text-[#E55B3C] uppercase">WHAT DO YOU NEED HELP WITH?</p>
               
               <div className="flex flex-wrap gap-2.5">
                 {queryTypes.map((type) => {
@@ -192,7 +192,7 @@ export default function ContactSection() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <label className="font-mono text-[9px] tracking-widest text-bg-primary/40 uppercase">Company / Agency Name (Optional)</label>
+              <label className="font-mono text-[9px] tracking-widest text-bg-primary/40 uppercase">Business Name (Optional)</label>
               <div className="relative">
                 <span className="absolute left-3 top-3.5 text-bg-primary/40"><Building className="w-3.5 h-3.5" /></span>
                 <input
@@ -213,7 +213,7 @@ export default function ContactSection() {
                 value={formData.message}
                 onChange={handleInputChange}
                 rows={4}
-                placeholder="Detail your goals, timelines, and branding requirements here..."
+                placeholder="Tell me a little bit about your business and what you want to create..."
                 className="w-full bg-bg-primary/[0.04] border border-bg-primary/10 rounded-md py-3.5 px-4 font-sans text-xs tracking-wide text-bg-primary focus:outline-none focus:border-accent focus:bg-bg-primary/[0.08]"
               />
             </div>
@@ -229,9 +229,9 @@ export default function ContactSection() {
                 >
                   <Send className="w-4 h-4 text-accent shrink-0 animate-bounce" />
                   <div>
-                    <p className="font-bold text-[#E55B3C]">NARRATIVE TRANSMISSION LINKED</p>
+                    <p className="font-bold text-[#E55B3C]">MESSAGE SENT SUCCESSFULLY</p>
                     <p className="text-[10px] text-bg-primary/75 mt-1 font-sans leading-relaxed lowercase">
-                      your inquiry for <strong>{selectedInterest}</strong> was packaged securely. Julian will reply brief within 24 hours. latency zero initialized.
+                      your inquiry for <strong>{selectedInterest}</strong> was packaged securely. Arshdeep will reply within 24 hours.
                     </p>
                   </div>
                 </motion.div>
@@ -243,7 +243,7 @@ export default function ContactSection() {
               disabled={formSubmitted}
               className="flex justify-center items-center gap-2.5 bg-[#E55B3C] hover:bg-bg-primary text-white hover:text-text-primary py-4 px-8 rounded-md font-mono text-[10px] tracking-widest uppercase transition-all duration-300 cursor-pointer w-full focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              <span>{formSubmitted ? 'TRANSMITTING BRIEF...' : 'INITIATE BRAND BRIEF'}</span>
+              <span>{formSubmitted ? 'SENDING...' : 'SEND MESSAGE'}</span>
               <ArrowUpRight className="w-4 h-4" />
             </button>
           </form>

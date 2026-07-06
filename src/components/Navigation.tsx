@@ -67,7 +67,7 @@ export default function Navigation() {
               {PERSONAL_BIO.name}
             </span>
             <span className="font-mono text-[8px] tracking-[0.3em] text-text-primary/40 uppercase">
-              Digital Strategist • Storyteller
+              Creative Strategist • Digital Marketer
             </span>
           </a>
 

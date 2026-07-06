@@ -81,10 +81,10 @@ export default function NarrativeGrid() {
               <span>ACTIVE SELECTIONS</span>
             </div>
             <h2 className="font-display font-medium text-4xl md:text-5xl lg:text-6xl tracking-tight text-text-primary uppercase leading-none">
-              Crafted Projects
+              Creative Work
             </h2>
             <p className="font-sans text-xs text-text-primary/50 uppercase tracking-widest mt-2">
-              Asymmetric digital activations making quantifiable brand gains
+              Designing bold strategies and visuals for growing brands
             </p>
           </div>
 
@@ -194,7 +194,7 @@ export default function NarrativeGrid() {
             {/* Quote badge decoration */}
             <div className="font-mono text-xs tracking-widest text-accent font-semibold uppercase mb-6 flex items-center gap-2">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>THE STORYTELLER PROTOCOL</span>
+              <span>MY MARKETING PHILOSOPHY</span>
             </div>
 
             <h3 className="font-display font-medium text-2xl md:text-3xl tracking-tight text-text-primary uppercase leading-tight mb-6">
@@ -206,18 +206,18 @@ export default function NarrativeGrid() {
             </p>
 
             <blockquote className="font-sans italic text-xs text-[#E55B3C] border-l-2 border-accent pl-4 py-1 leading-relaxed mb-8 uppercase tracking-wide">
-              "We replace dry, metric-chasing conversion tables with elegant narratives that command premium margins."
+              "I BRIDGE THE GAP BETWEEN STRATEGIC THINKING AND EYE-CATCHING DESIGN TO HELP BRANDS STAND OUT."
             </blockquote>
 
             {/* Direct list stats indicator */}
             <div className="grid grid-cols-2 gap-4 border-t border-text-primary/10 pt-8">
               <div>
-                <p className="font-display text-2xl font-bold text-text-primary">08+</p>
-                <p className="font-mono text-[9px] text-text-primary/40 uppercase tracking-widest mt-1">Years Working</p>
+                <p className="font-display text-2xl font-bold text-text-primary">05+</p>
+                <p className="font-mono text-[9px] text-text-primary/40 uppercase tracking-widest mt-1">PROJECTS BUILT</p>
               </div>
               <div>
-                <p className="font-display text-2xl font-bold text-text-primary">12M+</p>
-                <p className="font-mono text-[9px] text-text-primary/40 uppercase tracking-widest mt-1">Platform Impact</p>
+                <p className="font-display text-2xl font-bold text-text-primary">100%</p>
+                <p className="font-mono text-[9px] text-text-primary/40 uppercase tracking-widest mt-1">CREATIVE DRIVE</p>
               </div>
             </div>
           </motion.div>
@@ -236,7 +236,7 @@ export default function NarrativeGrid() {
                   <path id="circlePath1" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
                   <text className="font-mono text-[7px] tracking-[0.22em] uppercase font-bold fill-text-primary">
                     <textPath href="#circlePath1" startOffset="0%">
-                      • MARKETING ARCHITECT • EDITORIAL FOCUS •
+                      • CREATIVE STRATEGIST • DIGITAL MARKETING STUDENT •
                     </textPath>
                   </text>
                 </svg>
