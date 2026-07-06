@@ -1,9 +1,10 @@
-const luxCampaign = '/src/assets/images/lux_campaign_1782106529363.jpg';
-const creativeConcept = '/src/assets/images/creative_concept_1782106541878.jpg';
-const cinematicConcept = '/src/assets/images/cinematic_concept_1782106555605.jpg';
 import { PortfolioProject } from '../types';
+import luxCampaign from '../assets/images/lux_campaign_1782106529363.jpg';
+import creativeConcept from '../assets/images/creative_concept_1782106541878.jpg';
+import cinematicConcept from '../assets/images/cinematic_concept_1782106555605.jpg';
+import arshdeepAvatar from '../assets/images/arshdeep_avatar_exact.png';
 
-export const JULIAN_AVATAR_PATH = '/src/assets/images/arshdeep_avatar_exact.png';
+export const JULIAN_AVATAR_PATH = arshdeepAvatar;
 
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   {
